@@ -97,3 +97,107 @@ img{
     font-weight: 800;
     letter-spacing: 2pt;
 }
+
+
+@media(min-width: 0px) and (max-width: 726px){
+	.navba_up{
+		width: 50%;
+	}
+
+	a.navbar-brand{
+	  font-size: 15px;
+	}
+	.bi.bi-shop{
+		height: 30px;
+	}
+
+	.bi.bi-cart2{
+		width: 15px;
+	}
+	.titulo{
+		font-size: 20px;
+	}
+
+	.titulo_producto{
+		font-size: 10px;
+	}
+	img {
+    width: 142px;
+    height: 145px;
+	}
+	.circle{
+		width: 141px;
+    	height: 144px;
+    	margin: 13px 9px 0;
+	}
+
+	.n{
+		font-size: 15px;
+	}
+
+	.precio{
+		margin-top: -22px;
+        font-size: 15px;
+	}
+
+	.boton{
+		font-size:14px; 
+		padding: 3px;
+	}
+
+	.footer{
+	    margin-top: 30px;
+    	height: 140px;
+	}
+
+	.final {
+    padding: 11px;
+	}
+
+	.titulo_footer{
+		font-size: 50px;
+	}
+
+	.final p{
+		letter-spacing: 1pt;
+    	font-size: 12px;
+	}
+}
+
+@media(min-width: 767px) and (max-width: 991px){
+	.bi.bi-cart2{
+		width: 1px;
+	}
+	.titulo{
+		font-size: 40px;
+
+	}
+
+	.circle{
+		width: 315px;
+    	height: 300px;
+    	margin: 15px 34px 0;
+	}
+
+	img {
+    width: 335px;
+    height: 303px;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.titulo{
+		font-size: 40px;
+	}
+
+	.circle{
+		width: 442px;
+    	height: 315px;
+	}
+
+	img {
+    width: 483px;
+    height: 338px;
+	}
+
+}
