@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
 	<title>Proyecto WordPress</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
@@ -38,10 +38,10 @@
 			<div class="Productos">
 				<h1 class="titulo_producto">Productos</h1>
 
-				<div class="arow">
+				<div class="arrow">
 					<article class="produc_img">	
 							<figure class="circle">
-								<img class="img" src="css/assets/1.jpg" alt="">
+								<img class="img" src="<?php echo get_template_directory_uri();?>/css/assets/1.jpg" alt="">
 							</figure>
 								<p class="n">carro1</p>
 								<p class="precio">$100000000</p>
@@ -51,7 +51,7 @@
 					</article>
 					<article class="produc_img">	
 							<figure class="circle">
-								<img class="img" src="css/assets/2.jpeg" alt="">
+								<img class="img" src="<?php echo get_template_directory_uri();?>/css/assets/2.jpeg" alt="">
 							</figure>
 								<p class="n">carro1</p>
 								<p class="precio">$100000000</p>
@@ -60,10 +60,10 @@
 								</div>						
 					</article>
 				</div>
-				<div class="arow">
+				<div class="arrow">
 					<article class="produc_img">	
 							<figure class="circle">
-								<img class="img" src="css/assets/3.jpeg" alt="">
+								<img class="img" src="<?php echo get_template_directory_uri();?>/css/assets/3.jpeg" alt="">
 							</figure>
 								<p class="n">carro1</p>
 								<p class="precio">$100000000</p>
@@ -73,9 +73,10 @@
 					</article>
 					<article class="produc_img">	
 							<figure class="circle">
-								<img  class="img" src="css/assets/4.jpeg" alt="">
+								<img  class="img" src="<?php echo get_template_directory_uri();?>/css/assets/4.jpeg" alt="">
 							</figure>
 								<p class="n">carro1</p>
+								<p><?php the_field( 'pon_tu_nombre' ); ?></p>
 								<p class="precio">$100000000</p>
 								<div class="comprar">
 									<a class="boton" href="">comprar</a>
